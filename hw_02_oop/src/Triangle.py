@@ -11,6 +11,6 @@ class Triangle(Figure):
             self.perimeter = self.a + self.b + self.c
             half_perimeter = self.perimeter / 2
             self.area = (half_perimeter * (half_perimeter - self.a) * (half_perimeter - self.b) * (
-                        half_perimeter - self.c)) ** 0.5
+                    half_perimeter - self.c)) ** 0.5
         else:
             raise ValueError
