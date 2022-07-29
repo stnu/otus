@@ -1,7 +1,4 @@
 from Figure import Figure
-
-
-from Figure import Figure
 class Triangle(Figure):
 	def __init__(self, a, b, c):
 		if a + b > c and a + c > b and b + c > a:
