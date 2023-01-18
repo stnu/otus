@@ -4,7 +4,7 @@ from Figure import Figure
 class Triangle(Figure):
     def __init__(self, a, b, c):
         if a + b > c and a + c > b and b + c > a:
-            self.name = "Треугольник"
+            self.name = "Triangle"
             self.a = a
             self.b = b
             self.c = c

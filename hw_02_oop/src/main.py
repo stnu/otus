@@ -2,10 +2,6 @@ from Triangle import Triangle
 from Rectangle import Rectangle
 from Square import Square
 from Circle import Circle
-from Figure import Page
-
-
-j = Page()
 
 
 rectangle = Rectangle(10, 2)

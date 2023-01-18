@@ -6,7 +6,6 @@ class Figure:
             raise ValueError
         return self.area + figure.area
 
-class Page:
-    pass
+
 
 
