@@ -1,8 +1,5 @@
 from Triangle import Triangle
 from Rectangle import Rectangle
-from Square import Square
-from Circle import Circle
-
 
 rectangle = Rectangle(10, 2)
 print(rectangle.area)
