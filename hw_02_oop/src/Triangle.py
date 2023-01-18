@@ -1,4 +1,4 @@
-from Figure import Figure
+from hw_02_oop.src.Figure import Figure
 
 
 class Triangle(Figure):
